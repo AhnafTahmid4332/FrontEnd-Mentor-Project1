@@ -283,7 +283,7 @@ font-weight: var(--fw-bold);
   margin-top: -7em;
 }
 
-.message-container button {
+.message-container .button {
   margin-top: auto;
 }
 
@@ -300,9 +300,10 @@ font-weight: var(--fw-bold);
     
   }
 
-  .message-container button {
+  .message-container .button {
     margin-top: 1.5rem;
     font-size: 1.25rem;
+    max-height: 3em;
   }
 }
 
