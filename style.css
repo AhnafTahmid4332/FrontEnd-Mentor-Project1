@@ -181,6 +181,7 @@ input:not(:focus):invalid {
   var(--clr-accent-400),
   var(--clr-accent-500)
 );
+  outline: none;
 }
 
 form {
