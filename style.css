@@ -107,6 +107,10 @@ body {
   background-color: var(--clr-neutral-800);
 }
 
+a {
+  text-decoration: none;
+}
+
 input {
  padding: 1rem;
  border-radius: .5rem;
@@ -167,6 +171,7 @@ input:not(:focus):invalid {
  padding: 1rem;
  border-radius: .5rem; 
  cursor: pointer;
+  text-align: center;
 }
 
 .button:hover,
