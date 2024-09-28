@@ -288,6 +288,9 @@ font-weight: var(--fw-bold);
 }
 
 @media (width >= 480px) {
+  .body {
+    overflow-y: clip;
+  }
   .message-container {
     max-height: 450px;
     max-width: 450px;
@@ -301,7 +304,8 @@ font-weight: var(--fw-bold);
   }
 
   .message-container button {
-    margin-top: 1.5rem
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
   }
 
 }
