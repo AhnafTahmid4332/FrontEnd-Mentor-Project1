@@ -289,7 +289,7 @@ font-weight: var(--fw-bold);
 
 @media (width >= 480px) {
   .body {
-    overflow-y: clip;
+    overflow: clip;
   }
   .message-container {
     max-height: 450px;
