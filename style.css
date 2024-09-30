@@ -222,7 +222,7 @@ border-radius: 1rem;
 background-color: var(--clr-neutral-100);
 }
 
-@media (width >= 650px) {
+@media (width >= 700px) {
   .newsletter-cta{
     display: grid;
     align-items: center;
