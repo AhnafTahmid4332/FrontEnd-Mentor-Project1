@@ -129,12 +129,6 @@ input:not(:focus):invalid {
   border: 1px solid var(--clr-accent-400);
 }
 
-input:not(:focus):invalid {
-  color: var(--clr-accent-400);
-  border: 1px solid var(--clr-accent-400);
-}
-
-
 .form-group {
   display: grid;
   gap: 0.5rem;
